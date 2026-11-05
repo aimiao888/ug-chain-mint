@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+*.key
+*.wif
+wallet.json
+secrets.json
+
+# Runtime state and logs
+minter_state.json
+*.log
+
+# Editors / IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Extra local secrets
+rpc-auth.txt
+bitcoin.conf
+*.aes
+*.dpapi
+wallets.json
+
